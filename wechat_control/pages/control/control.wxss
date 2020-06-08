@@ -1,0 +1,80 @@
+/* pages/control/control.wxss */
+
+.control {
+  width: 80%;
+  height: 63%;
+  transform: rotate(90deg);
+  background-color: #eee;
+  justify-content: center;
+}
+
+.cameraView {
+  margin-left: 200px;
+  width: 200px;
+  height: 300px;
+  background-color: #eee;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.button {
+  height: 60px;
+  width: 60px;
+  opacity: 0.3;
+}
+
+#forward {
+  left: 60px;
+  top: 135px;
+}
+
+#left {
+  left: 0px;
+  top: 195px;
+}
+
+#right {
+  left: 120px;
+  top: 195px;
+}
+
+#backLeft {
+  left: 0px;
+  top: 255px;
+}
+
+#backRight {
+  left: 120px;
+  top: 255px;
+}
+
+#back {
+  left: 60px;
+  top: 315px;
+}
+
+#up {
+  left: 480px;
+  top: 195px;
+}
+
+#camLeft {
+  left: 420px;
+  top: 255px;
+}
+
+#camRight {
+  left: 540px;
+  top: 255px;
+}
+
+#down {
+  left: 480px;
+  top: 315px;
+}
+
+#reset{
+  left: 480px;
+  top: 135px
+}

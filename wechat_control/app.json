@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/control/control",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "履带搬运机器人",
+    "navigationBarTextStyle": "black",
+    "showStatusBar": false
+  },
+  "sitemapLocation": "sitemap.json"
+}
